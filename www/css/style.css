@@ -1,0 +1,149 @@
+/* Empty. Add your own CSS if you like */
+body {
+  padding-top: 0px;
+}
+
+input.ng-invalid.ng-dirty {
+  border-color: #b94a48;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+}
+
+input.ng-invalid.ng-dirty ~ .help-block {
+  color: #b94a48;
+}
+
+input.ng-valid.ng-dirty {
+  border-color: #468847;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+}
+
+@-webkit-keyframes rotating {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+.rotating {
+  float: right;
+  position: relative;
+  top: -24px;
+  right: 10px;
+  -webkit-animation: rotating 1s linear infinite;
+}
+
+.halflings-icon.refresh {
+  background-position: -239px -24px;
+}
+
+.item-input {
+    padding : 0px 10px 0px 10px;
+}
+
+.button{
+    padding : 0;
+    height: 100%;
+    min-height: 20px;
+}/* Empty. Add your own CSS if you like */
+
+.form-group {
+	margin-top: 10px;
+}
+
+.form-img {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.help-block {
+    color: red;
+}
+
+.slideDescription {
+    border-bottom : 1px;
+    border-bottom-color : #EEE;
+    border-bottom-style : solid;
+}
+
+.slideDiv {
+    margin-top : 20px;
+    text-align: center;
+}
+
+.slider{
+  padding-bottom: 20px;
+}
+
+.slider-pager {
+  top: initial;
+  bottom: -20px;
+}
+
+.control-label {
+  padding-bottom: 5px;
+}
+
+.searchBox {
+}
+
+.bar .button.button-icon:before {
+  color: orange;
+}
+
+.searchCancel {
+  padding: 0px !important;
+}
+
+.spinner svg {
+  width: 28px;
+  height: 28px;
+  stroke: #444;
+  fill: #444;
+}
+
+.button-delete {
+    background-color : red;
+    color : white;
+}
+
+#scrolly {
+    position: relative;
+    vertical-align:middle;
+}
+
+#pane {
+    position: absolute;
+    transform: translate(0%, 30%);
+}
+
+.cropArea {
+      background: #E4E4E4;
+      overflow: hidden;
+      width:100%;
+      height:500px;
+      margin: 0 auto;
+}
+
+.half-width {
+  width: 47% !important;
+}
+
+.left-button {
+  float: left;
+}
+
+.right-button {
+  float: right;
+}
+
+.pre-label {
+    color: #F37201;
+}
+
+.slideImage {
+    max-width: 100%;
+}

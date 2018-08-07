@@ -1,0 +1,42 @@
+<ion-view view-title="LogIn" name="login-view">
+  <ion-content class="padding" ng-controller="LoginCtrl">
+
+      <div class="list list-inset panel">
+          <div class="control-label" for="username">
+              Username
+          </div>
+          <label class="item item-input">
+              <input type="text" placeholder="Username" ng-model="data.username" name="username">
+          </label>
+          <br />
+
+          <div class="control-label" for="username">
+              Password
+          </div>
+          <label class="item item-input">
+              <input type="password" placeholder="Password" ng-model="data.password">
+          </label>
+          <br />
+          <div>
+            <button class="button button-positive half-width left-button" ng-click="login(data)">Login</button>
+            <button class="button button-assertive half-width right-button" ng-click="gotoSignup()">SignUp</button>
+          </div>
+          <br />
+      </div>
+<!-- <button class="button ng-model="next" ion-chevron-right btn btn-primary"
+    mwl-date-modifier
+   date="calendarDay"
+   increment="calendarView">
+ </button>
+
+      <mwl-calendar
+            events="appointments"
+            view="calendarView"
+            view-title="calendarTitle"
+            current-day="calendarDay"
+
+            auto-open="true"
+>
+          </mwl-calendar> -->
+  </ion-content>
+</ion-view>
